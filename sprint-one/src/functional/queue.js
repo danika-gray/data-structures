@@ -1,7 +1,6 @@
 var Queue = function() {
-  var someInstance = {}; // makes a new instance of Queue which is a class/constructor fxn
+  var someInstance = {};
 
-  // Use an object with numeric keys to store values
   var storage = {};
   var front = 0;
   var end = 0;

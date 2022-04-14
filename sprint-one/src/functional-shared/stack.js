@@ -27,7 +27,7 @@ var stackMethods = {
       var popValue = this.storage[this.top - 1];
 
       delete this.storage[this.top - 1];
-      this.top--;
+      this.top--; 
 
       return popValue;
     }
