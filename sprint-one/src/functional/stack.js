@@ -11,7 +11,6 @@ var Stack = function() {
     // add value to someInstance (to the top)
     storage[top] = value; // storage['0'] returns value
     top++;
-    console.log(storage);
   };
 
   someInstance.pop = function() {
